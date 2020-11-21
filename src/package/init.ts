@@ -2,9 +2,9 @@ import { Module } from './modules/module'
 import { vnode, VNode } from './vnode'
 import * as is from './is'
 import { htmlDomApi, DOMAPI } from './htmldomapi'
- // 定义类型
+  // 定义类型
 type NonUndefined<T> = T extends undefined ? never : T
-
+  // 是否是undefined
 function isUndef (s: any): boolean {
   return s === undefined
 }
